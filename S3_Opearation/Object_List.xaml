@@ -1,0 +1,41 @@
+﻿<Page x:Class="S3_Opearation.Object_List"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:S3_Opearation" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" Loaded="Page_Loaded"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="700"
+      >
+    <Grid Background="LightGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="path_txt" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="7" Height="30"  VerticalAlignment="Top" BorderBrush="Black" BorderThickness="1"></TextBox>
+        <ListBox FontSize="20" x:Name="Folder_Info" Height="auto" BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.RowSpan="7" Margin="0 35 0 0"  Grid.Column="1" Grid.ColumnSpan="7" MouseDoubleClick="Folder_Info_MouseDoubleClick">
+        </ListBox>
+        <Button Background="{x:Null}"  x:Name="Back"  BorderBrush="{x:Null}" Grid.RowSpan="2" Grid.Column="7" Grid.Row="2" Margin="0 35 10 40" BorderThickness="1" HorizontalAlignment="Right"  Height="25" Width="25" Click="Back_Click" ToolTip="Previous">
+            <materialDesign:PackIcon  BorderBrush="{x:Null}" Foreground="#FF1B3861" Kind="ArrowBack" Width="25" Height="25"/>
+        </Button>
+    </Grid>
+</Page>

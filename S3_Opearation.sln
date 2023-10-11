@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3_Opearation", "S3_Opearation\S3_Opearation.csproj", "{3AD345F5-C959-45A9-AE0A-D5C8BF803A73}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC4DEC50-9E7F-47AC-9617-175DEDEDF83E} = {DC4DEC50-9E7F-47AC-9617-175DEDEDF83E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dal", "..\..\..\VersatileIT\s3uploader\Dll\Dal.csproj", "{DC4DEC50-9E7F-47AC-9617-175DEDEDF83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD345F5-C959-45A9-AE0A-D5C8BF803A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD345F5-C959-45A9-AE0A-D5C8BF803A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD345F5-C959-45A9-AE0A-D5C8BF803A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD345F5-C959-45A9-AE0A-D5C8BF803A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4DEC50-9E7F-47AC-9617-175DEDEDF83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4DEC50-9E7F-47AC-9617-175DEDEDF83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4DEC50-9E7F-47AC-9617-175DEDEDF83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4DEC50-9E7F-47AC-9617-175DEDEDF83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3039730-2EA1-453E-9315-901D18B32E29}
+	EndGlobalSection
+EndGlobal

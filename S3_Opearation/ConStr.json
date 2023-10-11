@@ -1,0 +1,3 @@
+{
+  "MainConStr": "Initial Catalog=S3App;Integrated Security=False;Persist Security Info=True;User ID=S3AppUser;Password=S3@ppU$er;MultipleActiveResultSets=True;Data Source=dmo.sbktech.co.in,8087;"
+}
